@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="577a73e7-c54f-49df-ae14-fa1e823b7498" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-interface/target/classes/com/wfaxxdyy/mallinterface/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-interface/target/classes/com/wfaxxdyy/mallinterface/bean/product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-interface/target/classes/com/wfaxxdyy/mallinterface/service/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-interface/target/classes/com/wfaxxdyy/mallinterface/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-order/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-order/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-order/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-order/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-order/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-order/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/MallOrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/service/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-order/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-order/src/test/java/com/wfaxxdyy/mall/mallorder/MallOrderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/MallProductApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/src/test/java/com/wfaxxdyy/mall/mallproduct/MallProductApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="577a73e7-c54f-49df-ae14-fa1e823b7498" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/mall-interface/target/" />
@@ -63,7 +22,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+            <state relative-caret-position="382">
               <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -293,12 +252,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586313597134</updated>
-      <workItem from="1586313598892" duration="8250000" />
+      <workItem from="1586313598892" duration="9463000" />
     </task>
+    <task id="LOCAL-00001" summary="项目搭建4，2020.4.8.">
+      <created>1586321913955</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586321913955</updated>
+    </task>
+    <task id="LOCAL-00002" summary="项目搭建4，2020.4.8.">
+      <created>1586321961214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586321961214</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8250000" />
+    <option name="totallyTimeSpent" value="9463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -309,16 +283,16 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.3196481" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.3196481" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -341,6 +315,20 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目搭建4，2020.4.8." />
+    <option name="LAST_COMMIT_MESSAGE" value="项目搭建4，2020.4.8." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/service/OrderService.java">
@@ -477,7 +465,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="382">
           <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
