@@ -1,17 +1,15 @@
-package com.wfaxxdyy.mallinterface.service;
+package com.wfaxxdyy.mall.malluser.dao;
+
 
 import com.wfaxxdyy.mallinterface.bean.User;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-public interface UserService {
+@Repository
+public interface UserMapper {
 
-    //根据名字获取用户信息
     User getUser(String username);
 
-    //注册用户
     void register(User user);
-
-    //
-
 }

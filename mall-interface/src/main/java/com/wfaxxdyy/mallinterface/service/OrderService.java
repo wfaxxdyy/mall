@@ -8,5 +8,5 @@ import java.util.List;
 public interface OrderService {
 
 
-    List<User> getUser();
+    User getUser(String username);
 }

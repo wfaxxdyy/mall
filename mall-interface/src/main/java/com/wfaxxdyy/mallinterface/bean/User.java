@@ -4,32 +4,31 @@ import java.io.Serializable;
 
 public class User implements Serializable {
 
-    private String name;
-    private int age;
-    private  int id;
+    private int uid;
+    private String username;
+    private String password;
 
-    public int getId() {
-        return id;
+    public int getUid() {
+        return uid;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setUid(int uid) {
+        this.uid = uid;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public int getAge() {
-        return age;
+    public String getPassword() {
+        return password;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setPassword(String password) {
+        this.password = password;
     }
-
 }

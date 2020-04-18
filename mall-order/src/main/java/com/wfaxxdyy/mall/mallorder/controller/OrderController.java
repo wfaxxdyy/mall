@@ -21,15 +21,10 @@ public class OrderController {
 
     @RequestMapping("/find")
     @ResponseBody
-    public String find(){
-        List<User> userList = orderService.getUser();
+    public String find(String username){
+        User user = orderService.getUser(username);
 
-        String str=null;
-        for (User user : userList) {
-            str+=user.getName();
-        }
-
-        return str;
+        return user.toString();
     }
 
 }

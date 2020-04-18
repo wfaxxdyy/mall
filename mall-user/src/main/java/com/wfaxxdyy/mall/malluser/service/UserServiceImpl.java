@@ -1,7 +1,8 @@
-package com.wfaxxdyy.mall.mallproduct.service;
+package com.wfaxxdyy.mall.malluser.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.wfaxxdyy.mall.mallproduct.dao.UserMapper;
+
+import com.wfaxxdyy.mall.malluser.dao.UserMapper;
 import com.wfaxxdyy.mallinterface.bean.User;
 import com.wfaxxdyy.mallinterface.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,17 +17,13 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
 
-    public List<User> getUser() {
-        return userMapper.getUser();
-    }
-
     @Override
     public User getUser(String username) {
-        return null;
+        return userMapper.getUser(username);
     }
 
     @Override
     public void register(User user) {
-
+        userMapper.register(user);
     }
 }

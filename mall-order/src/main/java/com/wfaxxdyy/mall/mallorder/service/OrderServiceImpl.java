@@ -14,9 +14,9 @@ public class OrderServiceImpl implements OrderService {
     @Reference
     UserService userService;
 
-    @Override
-    public List<User> getUser() {
 
-        return userService.getUser();
+    @Override
+    public User getUser(String username) {
+        return userService.getUser(username);
     }
 }
