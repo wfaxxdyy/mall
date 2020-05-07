@@ -21,7 +21,7 @@ public class ProductController {
     @Reference
     ProductService productService;
 
-    @CrossOrigin(origins = "*", maxAge = 3600)
+    @CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
     @RequestMapping("/getProductByCategory")
     @ResponseBody
     public List<Product> getProductByCategory(@RequestParam("p_category") int p_category){
@@ -30,7 +30,7 @@ public class ProductController {
 
     }
 
-    @CrossOrigin(origins = "*", maxAge = 3600)
+    @CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
     @RequestMapping("/findByPage")
     @ResponseBody
     public PageBeanFront findByPage(PageBean pageBean){

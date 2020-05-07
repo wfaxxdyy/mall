@@ -20,7 +20,7 @@ public class UserController {
     /*
     * 校验：根据username查询用户信息
     * */
-    @CrossOrigin(origins = "*", maxAge = 3600,allowCredentials="true")
+    @CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
     @RequestMapping("/login")
     @ResponseBody
     public User find(@RequestParam("username") String username, HttpSession session){
@@ -28,9 +28,7 @@ public class UserController {
         if(user==null){
             return null;
         }
-
         session.setAttribute("user",user);
-
         return user;
     }
 
@@ -64,7 +62,7 @@ public class UserController {
     /*
     * 注销session用户
     * */
-    @CrossOrigin(origins = "*", maxAge = 3600)
+    @CrossOrigin(origins = "*", maxAge = 3600,allowCredentials="true")
     @RequestMapping("/delUserInfo")
     @ResponseBody
     public void delUserInfo(HttpSession session){
