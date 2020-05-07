@@ -14,10 +14,10 @@
         select * from product 
         <where>
             <if test="priceGt!=''">
-                and p_money > priceGt+0
+                and p_money > #{priceGt}+0
             </if>
             <if test="priceLte!=''">
-                and p_money &lt;= priceLte+0
+                and p_money &lt;= #{priceLte}+0
             </if>
         </where>
         

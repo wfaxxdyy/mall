@@ -2,54 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="577a73e7-c54f-49df-ae14-fa1e823b7498" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/Apple 2019新品 MacBook Pro 16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/CK one 100ml.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/DJI 大疆 Osmo Mobile 3 灵眸手机云台 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/DJI 大疆 御 Mavic Mini 航拍小飞机.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/DJI 大疆 精灵 Phantom 4 Pro V2.0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/HUAWEI P40 Pro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/MateBook 14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/OPPO Ace2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/SK-II神仙水230ml.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/iphone11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/一加 OnePlus 8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/伟峰 WEIFENG WT-3540 三脚架.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/佳能（Canon）EF 24-70mm f2.8L II USM 单反镜头 标准变焦镜头 大三元.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/佳能（Canon）EF 50mm f1.8 STM 单反镜头.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/佳能（Canon）EOS 5D Mark IV 5D4 单反相机.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/兰蔻（LANCOME）菁纯丝绒雾面哑光唇膏196.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/坚果 Pro3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/小新Air14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/小米 10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/惠普(HP)暗影精灵5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/戴尔(Dell)游匣G5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/戴尔DELL灵越5000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/拯救者Y7000P.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/祖玛珑 （jomalone ）蓝风铃香水30ml.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/索尼（SONY）Alpha 6000L APS-C微单数码相机标准套装.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/荣耀MagicBook 14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/荣耀V30 PRO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/迪奥（Dior）烈艳蓝金唇膏-哑光999.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/迪奥（Dior）迪奥小姐花漾淡香氛(EDT)30ml.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/雅诗兰黛 沁水粉底液 30ml.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/香奈儿（Chanel）邂逅柔情淡香水 50ml.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/魅族 16T.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/PageBeanFront.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/dao/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/product.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-interface/target/classes/com/wfaxxdyy/mallinterface/bean/product.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/target/classes/com/wfaxxdyy/mallinterface/bean/product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/dao/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,46 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/service/ProductServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/dao/ProductMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mall-product/src/main/resources/mapper/ProductMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-              <folding>
-                <element signature="e#713#717#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+            <state relative-caret-position="-330">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,7 +74,6 @@
         <option value="$PROJECT_DIR$/mall-user/src/main/java/com/wfaxxdyy/mall/malluser/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/mall-user/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/UserController.java" />
         <option value="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/product.java" />
         <option value="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/Product.java" />
         <option value="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/PageBean.java" />
@@ -168,6 +86,7 @@
         <option value="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/PageBeanFront.java" />
         <option value="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/service/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/mall-product/src/main/resources/mapper/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -225,6 +144,51 @@
             <path>
               <item name="mall" type="b2602c69:ProjectViewProjectNode" />
               <item name="mall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mallcontroller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mallcontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,7 +297,7 @@
       <workItem from="1587089944572" duration="22974000" />
       <workItem from="1588472733953" duration="10474000" />
       <workItem from="1588484893498" duration="1454000" />
-      <workItem from="1588489846488" duration="4357000" />
+      <workItem from="1588489846488" duration="23365000" />
     </task>
     <task id="LOCAL-00001" summary="项目搭建4，2020.4.8.">
       <created>1586321913955</created>
@@ -363,16 +327,24 @@
       <option name="project" value="LOCAL" />
       <updated>1586335425194</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="项目搭建5，2020.5.3">
+      <created>1588495476445</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588495476445</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87157000" />
+    <option name="totallyTimeSpent" value="106165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22252011" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22252011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -395,7 +367,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49865952" weight="0.15835777" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3196481" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3196481" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -460,7 +432,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目搭建4，2020.4.8." />
     <MESSAGE value="项目搭建5，2020.4.8." />
-    <option name="LAST_COMMIT_MESSAGE" value="项目搭建5，2020.4.8." />
+    <MESSAGE value="项目搭建5，2020.5.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目搭建5，2020.5.3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mall-order/src/main/resources/application.properties" />
@@ -567,18 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -663,19 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-user/src/main/java/com/wfaxxdyy/mall/malluser/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mall-controller/src/main/resources/static/pics/iphone11.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -690,16 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,13 +669,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/ProductController.java">
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/service/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-482">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -753,18 +688,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mall-product/src/main/resources/mapper/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state relative-caret-position="-38">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding>
             <element signature="e#713#717#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/service/ProductServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/mall-user/src/main/java/com/wfaxxdyy/mall/malluser/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="304">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
