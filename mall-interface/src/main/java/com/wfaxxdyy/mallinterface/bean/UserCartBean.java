@@ -3,13 +3,32 @@ package com.wfaxxdyy.mallinterface.bean;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
+public class UserCartBean implements Serializable {
 
-public class CartBean implements Serializable {
+    private String username;
+    private String p_name;
+    private String p_image;
+    private BigDecimal p_money;
+    private int productNum;
 
-  private String p_name;
-  private String p_image;
-  private BigDecimal p_money;
-  private int productNum;
+    @Override
+    public String toString() {
+        return "UserCartBean{" +
+                "username='" + username + '\'' +
+                ", p_name='" + p_name + '\'' +
+                ", p_image='" + p_image + '\'' +
+                ", p_money=" + p_money +
+                ", productNum=" + productNum +
+                '}';
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
     public String getP_name() {
         return p_name;
