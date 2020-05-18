@@ -11,6 +11,10 @@
     </insert>
 
     <update id="updateCartList">
-        update cart set productNum=(productNum+1) where username=#{username} and p_name=#{p_name}
+        update cart set productNum=#{productNum} where username=#{username} and p_name=#{p_name}
     </update>
+
+    <delete id="delCartBean">
+        delete from cart where username=#{username} and p_name=#{p_name}
+    </delete>
 </mapper>

@@ -10,4 +10,6 @@ public interface ProductService {
     List<Product> getProductByCategory(int p_category);
 
     PageBeanFront findByPage(PageBean pageBean);
+
+    Product getProductById(int p_id);
 }

@@ -33,6 +33,7 @@ public class OrderServiceImpl implements OrderService {
 
         List<CartBean> cartList = orderMapper.getCartList(username);
         String p_name = cartBean.getP_name();
+        int productNum = cartBean.getProductNum();
 
         //判断是否存在购物车
         if(cartList==null){
@@ -42,7 +43,8 @@ public class OrderServiceImpl implements OrderService {
             for (CartBean item: cartList) {
                 i++;
                 if(item.getP_name().equals(p_name)){
-                    orderMapper.updateCartList(username,p_name);
+                    productNum = productNum+item.getProductNum();
+                    orderMapper.updateCartList(username,p_name,productNum);
                     break;
                 }
             }
@@ -62,6 +64,15 @@ public class OrderServiceImpl implements OrderService {
         return orderMapper.getCartList(username);
     }
 
+    /*
+    * 删除购物车商品
+    * */
+    @Override
+    public void delCartBean(String username, String p_name) {
+
+        orderMapper.delCartBean(username,p_name);
+
+    }
 
 
 }

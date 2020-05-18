@@ -51,5 +51,10 @@ public class ProductServiceImpl implements ProductService {
 
     }
 
+    @Override
+    public Product getProductById(int p_id) {
+        return productMapper.getProductById(p_id);
+    }
+
 
 }

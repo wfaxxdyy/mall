@@ -31,6 +31,15 @@ public class ProductController {
     }
 
     @CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
+    @RequestMapping("/getProductById")
+    @ResponseBody
+    public Product getProductById(@RequestParam("p_id") int p_id){
+
+        return productService.getProductById(p_id);
+
+    }
+
+    @CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
     @RequestMapping("/findByPage")
     @ResponseBody
     public PageBeanFront findByPage(PageBean pageBean){

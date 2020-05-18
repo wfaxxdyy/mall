@@ -16,5 +16,8 @@ public interface OrderMapper {
     List<CartBean> getCartList(String username);
 
     //更新购物车
-    void updateCartList(String username, String p_name);
+    void updateCartList(String username, String p_name, int productNum);
+
+    //删除购物车商品
+    void delCartBean(String username, String p_name);
 }

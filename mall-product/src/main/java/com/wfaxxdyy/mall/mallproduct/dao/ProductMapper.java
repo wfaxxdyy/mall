@@ -13,4 +13,6 @@ public interface ProductMapper {
     List<Product> getProductByCategory(int p_category);
 
     List<Product> findByPage(PageBean pageBean);
+
+    Product getProductById(int p_id);
 }

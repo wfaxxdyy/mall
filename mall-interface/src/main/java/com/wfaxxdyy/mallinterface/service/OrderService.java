@@ -18,4 +18,9 @@ public interface OrderService {
     * */
     List<CartBean> getCartList(String username);
 
+    /*
+    * 删除购物车商品
+    * */
+    void delCartBean(String username,String p_name);
+
 }

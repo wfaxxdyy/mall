@@ -52,4 +52,11 @@ public class OrderController {
         return  null;
     }
 
+    @CrossOrigin(origins = "*", maxAge = 3600,allowCredentials="true")
+    @RequestMapping("/delCartBean")
+    public void delCartBean(String p_name, HttpSession session){
+        User user = (User) session.getAttribute("user");
+        orderService.delCartBean(user.getUsername(),p_name);
+    }
+
 }
