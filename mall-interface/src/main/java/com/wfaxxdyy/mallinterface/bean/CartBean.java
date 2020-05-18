@@ -6,10 +6,19 @@ import java.math.BigDecimal;
 
 public class CartBean implements Serializable {
 
-  private String p_name;
-  private String p_image;
-  private BigDecimal p_money;
-  private int productNum;
+    private int p_id;
+    private String p_name;
+    private String p_image;
+    private BigDecimal p_money;
+    private int productNum;
+
+    public int getP_id() {
+        return p_id;
+    }
+
+    public void setP_id(int p_id) {
+        this.p_id = p_id;
+    }
 
     public String getP_name() {
         return p_name;

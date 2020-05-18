@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="577a73e7-c54f-49df-ae14-fa1e823b7498" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/CartBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/CartBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/UserCartBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/UserCartBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/service/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/service/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-order/src/main/resources/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-order/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,19 +69,19 @@
         <option value="$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/MallOrderApplication.java" />
         <option value="$PROJECT_DIR$/mall-controller/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mall-order/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/CartBean.java" />
-        <option value="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/UserCartBean.java" />
         <option value="$PROJECT_DIR$/mall-order/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/service/OrderService.java" />
         <option value="$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/service/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/dao/OrderMapper.java" />
-        <option value="$PROJECT_DIR$/mall-order/src/main/resources/mapper/OrderMapper.xml" />
         <option value="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/service/ProductService.java" />
         <option value="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/service/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/dao/ProductMapper.java" />
         <option value="$PROJECT_DIR$/mall-product/src/main/resources/mapper/ProductMapper.xml" />
         <option value="$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/CartBean.java" />
+        <option value="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/UserCartBean.java" />
+        <option value="$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/service/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mall-order/src/main/resources/mapper/OrderMapper.xml" />
       </list>
     </option>
   </component>
@@ -249,7 +253,7 @@
       <workItem from="1589031996808" duration="480000" />
       <workItem from="1589421032391" duration="4847000" />
       <workItem from="1589593868277" duration="28769000" />
-      <workItem from="1589699237672" duration="18309000" />
+      <workItem from="1589699237672" duration="21334000" />
     </task>
     <task id="LOCAL-00001" summary="项目搭建4，2020.4.8.">
       <created>1586321913955</created>
@@ -321,11 +325,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589794616086</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="项目搭建9，2020.5.18&#10;&#10;解决商品详情">
+      <created>1589797585278</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589797585278</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164612000" />
+    <option name="totallyTimeSpent" value="167637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -572,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/PageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mall-user/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -647,31 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/CartBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mall-order/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-45">
@@ -679,37 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/UserCartBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/service/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-order/src/main/resources/mapper/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/dao/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -765,23 +717,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/service/OrderServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/CartBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="266">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/UserCartBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/bean/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
+        <state relative-caret-position="511">
           <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/service/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/dao/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-order/src/main/resources/mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="102" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
         </state>
       </provider>
     </entry>

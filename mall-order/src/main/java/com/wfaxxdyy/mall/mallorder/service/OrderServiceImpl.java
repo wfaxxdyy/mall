@@ -26,6 +26,7 @@ public class OrderServiceImpl implements OrderService {
         //封装数据，主要添加username这个参数
         UserCartBean userCartBean = new UserCartBean();
         userCartBean.setUsername(username);
+        userCartBean.setP_id(cartBean.getP_id());
         userCartBean.setP_name(cartBean.getP_name());
         userCartBean.setP_money(cartBean.getP_money());
         userCartBean.setP_image(cartBean.getP_image());

@@ -7,7 +7,7 @@
     </select>
 
     <insert id="addCart">
-        insert into cart (username,p_name,p_money,p_image,productNum) values(#{username},#{p_name},#{p_money},#{p_image},#{productNum})
+        insert into cart (username,p_id,p_name,p_money,p_image,productNum) values(#{username},#{p_id},#{p_name},#{p_money},#{p_image},#{productNum})
     </insert>
 
     <update id="updateCartList">
