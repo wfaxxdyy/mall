@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="577a73e7-c54f-49df-ae14-fa1e823b7498" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-controller/src/main/java/com/wfaxxdyy/mall/mallcontroller/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/src/main/java/com/wfaxxdyy/mallinterface/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-interface/target/classes/com/wfaxxdyy/mallinterface/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall-interface/target/classes/com/wfaxxdyy/mallinterface/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/dao/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/dao/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/service/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-order/src/main/java/com/wfaxxdyy/mall/mallorder/service/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-order/src/main/resources/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-order/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/dao/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/wfaxxdyy/mall/mallproduct/service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-product/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -260,7 +249,7 @@
       <workItem from="1589031996808" duration="480000" />
       <workItem from="1589421032391" duration="4847000" />
       <workItem from="1589593868277" duration="28769000" />
-      <workItem from="1589699237672" duration="17043000" />
+      <workItem from="1589699237672" duration="18309000" />
     </task>
     <task id="LOCAL-00001" summary="项目搭建4，2020.4.8.">
       <created>1586321913955</created>
@@ -325,11 +314,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589710291245</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="项目搭建9，2020.5.18&#10;&#10;解决商品详情">
+      <created>1589794616086</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589794616086</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163346000" />
+    <option name="totallyTimeSpent" value="164612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -426,7 +422,8 @@
     <MESSAGE value="项目搭建6，2020.5.7&#10;&#10;重点解决跨域session的问题" />
     <MESSAGE value="项目搭建7，2020.5.16&#10;&#10;解决购物车问题" />
     <MESSAGE value="项目搭建8，2020.5.17&#10;&#10;解决购物车问题添加问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目搭建8，2020.5.17&#10;&#10;解决购物车问题添加问题" />
+    <MESSAGE value="项目搭建9，2020.5.18&#10;&#10;解决商品详情" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目搭建9，2020.5.18&#10;&#10;解决商品详情" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mall-order/src/main/resources/application.properties" />
