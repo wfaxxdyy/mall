@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mall-user" />
         <module name="mall-controller" />
-        <module name="mall-product" />
         <module name="mall-order" />
+        <module name="mall-product" />
         <module name="mall-interface" />
       </profile>
     </annotationProcessing>

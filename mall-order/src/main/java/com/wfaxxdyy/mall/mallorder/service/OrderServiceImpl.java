@@ -2,7 +2,9 @@ package com.wfaxxdyy.mall.mallorder.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.wfaxxdyy.mall.mallorder.dao.OrderMapper;
+import com.wfaxxdyy.mallinterface.bean.Address;
 import com.wfaxxdyy.mallinterface.bean.CartBean;
+import com.wfaxxdyy.mallinterface.bean.Order;
 import com.wfaxxdyy.mallinterface.bean.UserCartBean;
 import com.wfaxxdyy.mallinterface.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -69,10 +71,56 @@ public class OrderServiceImpl implements OrderService {
     * 删除购物车商品
     * */
     @Override
-    public void delCartBean(String username, String p_name) {
+    public void delCartBean(String username, int p_id) {
 
-        orderMapper.delCartBean(username,p_name);
+        orderMapper.delCartBean(username,p_id);
 
+    }
+
+    /*
+     * 改变购物车商品数量
+     * */
+    @Override
+    public void editCart(String username, int p_id, int productNum) {
+
+        orderMapper.editCart(username,p_id,productNum);
+    }
+
+    //添加收货地址
+    @Override
+    public void addAddress(String username, Address address) {
+        orderMapper.addAddress(username,address);
+    }
+
+    //获取地址集合
+    @Override
+    public List<Address> getAddressList(String username) {
+        return orderMapper.getAddressList(username);
+    }
+
+    //更新地址
+    @Override
+    public void updateAddress(String username, Address address) {
+        orderMapper.updateAddress(username,address);
+    }
+
+    //删除地址
+    @Override
+    public void delAddress(String username, int a_id) {
+        orderMapper.delAddress(username,a_id);
+    }
+
+    //提交订单
+    @Override
+    public int submitOrder(String username, Order order) {
+        orderMapper.submitOrder(username,order);
+        return order.getO_id();
+    }
+
+    //获取订单
+    @Override
+    public Order getOrder(String username, String o_id) {
+        return orderMapper.getOrder(username,o_id);
     }
 
 

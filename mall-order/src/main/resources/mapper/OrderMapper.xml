@@ -15,6 +15,38 @@
     </update>
 
     <delete id="delCartBean">
-        delete from cart where username=#{username} and p_name=#{p_name}
+        delete from cart where username=#{username} and p_id=#{p_id}
     </delete>
+
+    <update id="editCart">
+        update cart set productNum=#{productNum} where username=#{username} and p_id=#{p_id}
+    </update>
+
+    <insert id="addAddress">
+        insert into address (username,a_username,a_tel,a_street,a_default) values(#{username},#{address.a_username},#{address.a_tel},#{address.a_street},#{address.a_default})
+    </insert>
+
+    <select id="getAddressList" resultType="com.wfaxxdyy.mallinterface.bean.Address">
+        select * from address where username=#{username}
+    </select>
+
+    <update id="updateAddress">
+        update address set a_username=#{address.a_username},a_tel=#{address.a_tel},a_street=#{address.a_street}  where username=#{username} and a_id=#{address.a_id}
+    </update>
+
+    <delete id="delAddress">
+        delete from address where username=#{username} and a_id=#{a_id}
+    </delete>
+
+    <insert id="submitOrder">
+        <selectKey keyProperty="order.o_id" order="AFTER" resultType="java.lang.Integer">
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into orders (username,o_username,o_tel,o_street) values(#{username},#{order.o_username},#{order.o_tel},#{order.o_street})
+    </insert>
+
+    <select id="getOrder" resultType="com.wfaxxdyy.mallinterface.bean.Order">
+        select * from orders where username=#{username} and o_id=#{o_id}
+    </select>
+
 </mapper>
