@@ -2,8 +2,12 @@ package com.wfaxxdyy.mall.mallcontroller.controller;
 
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.wfaxxdyy.mall.mallcontroller.util.RedisDBChangeUtil;
 import com.wfaxxdyy.mallinterface.bean.User;
 import com.wfaxxdyy.mallinterface.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,6 +21,13 @@ public class UserController {
     @Reference
     UserService userService;
 
+    @Autowired
+    @Qualifier("userRedisTemplate")
+    private RedisTemplate urt;
+
+    @Autowired
+    RedisDBChangeUtil redisDBChangeUtil;
+
     /*
     * 校验：根据username查询用户信息
     * */
@@ -24,12 +35,22 @@ public class UserController {
     @RequestMapping("/login")
     @ResponseBody
     public User find(@RequestParam("username") String username, HttpSession session){
-        User user = userService.getUser(username);
-        if(user==null){
-            return null;
+
+        redisDBChangeUtil.setDataBase(0);
+        User redisuser = (User) urt.opsForValue().get(username);
+        if(null!= redisuser){
+            session.setAttribute("user",redisuser);
+            return redisuser;
+        }else{
+            User user = userService.getUser(username);
+            if(user==null){
+                return null;
+            }
+            urt.opsForValue().set(username,user);
+            session.setAttribute("user",user);
+            return user;
         }
-        session.setAttribute("user",user);
-        return user;
+
     }
 
     /*

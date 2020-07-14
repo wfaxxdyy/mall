@@ -1,10 +1,7 @@
 package com.wfaxxdyy.mallinterface.service;
 
 
-import com.wfaxxdyy.mallinterface.bean.Address;
-import com.wfaxxdyy.mallinterface.bean.CartBean;
-import com.wfaxxdyy.mallinterface.bean.Order;
-import com.wfaxxdyy.mallinterface.bean.User;
+import com.wfaxxdyy.mallinterface.bean.*;
 
 import java.util.List;
 
@@ -49,4 +46,10 @@ public interface OrderService {
 
     //获取订单
     Order getOrder(String username, String o_id);
+
+    //清空购物车
+    void cleanOrder(String username);
+
+    //付款信息
+    void payment(String username, PayInfo payInfo);
 }

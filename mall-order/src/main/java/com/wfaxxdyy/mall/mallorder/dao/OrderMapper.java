@@ -1,9 +1,6 @@
 package com.wfaxxdyy.mall.mallorder.dao;
 
-import com.wfaxxdyy.mallinterface.bean.Address;
-import com.wfaxxdyy.mallinterface.bean.CartBean;
-import com.wfaxxdyy.mallinterface.bean.Order;
-import com.wfaxxdyy.mallinterface.bean.UserCartBean;
+import com.wfaxxdyy.mallinterface.bean.*;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
@@ -44,4 +41,10 @@ public interface OrderMapper {
 
     //获取订单
     Order getOrder(String username, String o_id);
+
+    //清空购物车
+    void cleanOrder(String username);
+
+    //付款信息
+    void payment(@Param("username") String username,  @Param("payInfo") PayInfo payInfo);
 }

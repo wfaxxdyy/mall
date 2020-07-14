@@ -49,4 +49,13 @@
         select * from orders where username=#{username} and o_id=#{o_id}
     </select>
 
+    <delete id="cleanOrder">
+        delete from cart where username=#{username}
+    </delete>
+
+    <insert id="payment">
+        insert into payment (orderId,username,nickName,money,info,email,payType)
+        values(#{payInfo.orderId},#{username},#{payInfo.nickName},#{payInfo.money},#{payInfo.info},#{payInfo.email},#{payInfo.payType})
+    </insert>
+
 </mapper>

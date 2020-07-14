@@ -2,10 +2,7 @@ package com.wfaxxdyy.mall.mallorder.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.wfaxxdyy.mall.mallorder.dao.OrderMapper;
-import com.wfaxxdyy.mallinterface.bean.Address;
-import com.wfaxxdyy.mallinterface.bean.CartBean;
-import com.wfaxxdyy.mallinterface.bean.Order;
-import com.wfaxxdyy.mallinterface.bean.UserCartBean;
+import com.wfaxxdyy.mallinterface.bean.*;
 import com.wfaxxdyy.mallinterface.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -121,6 +118,17 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public Order getOrder(String username, String o_id) {
         return orderMapper.getOrder(username,o_id);
+    }
+
+    //清空购物车
+    @Override
+    public void cleanOrder(String username) {
+        orderMapper.cleanOrder(username);
+    }
+
+    @Override
+    public void payment(String username, PayInfo payInfo) {
+        orderMapper.payment(username,payInfo);
     }
 
 

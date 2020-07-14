@@ -1,10 +1,7 @@
 package com.wfaxxdyy.mall.mallcontroller.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.wfaxxdyy.mallinterface.bean.Address;
-import com.wfaxxdyy.mallinterface.bean.CartBean;
-import com.wfaxxdyy.mallinterface.bean.Order;
-import com.wfaxxdyy.mallinterface.bean.User;
+import com.wfaxxdyy.mallinterface.bean.*;
 import com.wfaxxdyy.mallinterface.service.OrderService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -131,8 +128,30 @@ public class OrderController {
     @RequestMapping("/getOrder")
     @ResponseBody
     public Order getOrder(String o_id, HttpSession session){
-        System.out.println(o_id);
         User user = (User) session.getAttribute("user");
         return orderService.getOrder(user.getUsername(),o_id);
     }
+
+    //清空购物车
+    @CrossOrigin(origins = "*", maxAge = 3600,allowCredentials="true")
+    @RequestMapping("/cleanOrder")
+    @ResponseBody
+    public String cleanOrder(HttpSession session){
+        User user = (User) session.getAttribute("user");
+        orderService.cleanOrder(user.getUsername());
+        return "clean!";
+    }
+
+    //付款信息
+    @CrossOrigin(origins = "*", maxAge = 3600,allowCredentials="true")
+    @RequestMapping("/payment")
+    @ResponseBody
+    public String payment(PayInfo payInfo, HttpSession session){
+        User user = (User) session.getAttribute("user");
+        orderService.payment(user.getUsername(),payInfo);
+        return "支付信息已提交！";
+    }
+
+
+
 }
